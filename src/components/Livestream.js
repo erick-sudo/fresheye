@@ -13,7 +13,7 @@ function Livestream() {
     const navigate = useNavigate()
 
     useEffect(() => {
-        fetch(`http://transactions-bank-of-flatiron.herokuapp.com/transactions`)
+        fetch(`https://transactions-bank-of-flatiron.herokuapp.com/transactions`)
         .then(res => res.json())
         .then(data => {
             for(let pay of data){
