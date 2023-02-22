@@ -20,7 +20,7 @@ function Payment({setPaymentStatusHelper}) {
         }, 7000)
 
         if(event.target.phonenumber.value.length === 9) {
-            fetch("https://fresheye-transactions.herokuapp.com/buyticket", {
+            fetch("https://fresheye-video-server.herokuapp.com/buyticket", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -62,7 +62,7 @@ function Payment({setPaymentStatusHelper}) {
                                 <div className="mpesa-logo">
                                     <img src={mpesalogo} alt="Mpesa" />
                                 </div>
-                                <h1>522522</h1>
+                                <h1>5563609</h1>
                             </div>
                             <div className="phone-number">
                                 <span className="country-code">+254</span>
